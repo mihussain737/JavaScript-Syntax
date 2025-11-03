@@ -20,3 +20,27 @@ let sayHi=function(){
 }
 let a=sayHi; //  assigning function in a variable and later we can call
 a();
+
+
+// Arrow Function
+
+let arrowFunction=()=>{
+     console.log("arrow function")
+}
+arrowFunction()
+
+let arrowFunction2=()=> console.log("arrow function 2")
+arrowFunction2()
+
+
+const arrFunParam=(name,age)=>{
+     console.log(`hello ${name}`)
+     console.log(`your age ${name}`)
+}
+arrFunParam("John",20)
+
+
+// arrow function with return
+const retArrow=(a)=>a*a; // automatically return
+let result=retArrow(2);
+console.log(result)// 4

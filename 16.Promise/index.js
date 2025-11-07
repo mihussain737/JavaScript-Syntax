@@ -120,4 +120,4 @@ Promise.all([promise1,promise2,promise3])
 })
 
 // race vs all
-// race : get first promise to resolve and all all promsie fullfilled to resolve
+// race : get first promise to resolve and all all promsie fullfilled to resolve0

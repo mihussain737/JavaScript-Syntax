@@ -1,3 +1,5 @@
+ //The spread operator (...) allows you to expand (spread) elements of an array, object, or iterable into individual elements.
+ 
 let originalArray=[1,2,3];
 console.log(...originalArray);  // individual elements
 

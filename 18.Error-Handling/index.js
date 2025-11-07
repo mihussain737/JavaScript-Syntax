@@ -3,7 +3,7 @@
 // 1.
 //a();  //index.js:4 Uncaught ReferenceError: a is not defined
 //console.log("executed fully") // this will not run because of above error not handle
-
+/*
 
 //2. try catch block to handle the error
 try{
@@ -35,4 +35,33 @@ try{
 }finally{
      console.log("This will always run");
 }
+*/
 
+
+//    DEBUGGING
+
+function calculate(a,b){
+     let sum=a+b;
+     console.log(sum)
+}
+
+calculate(10,5)
+
+// f12 button on the browser to debugg
+
+// Scopes =>  stores all variables on the scopes and see value
+
+// watch => to keep the track of any varibles
+
+async function fetchApi(){
+     try {
+          let response=await fetch('https://jsonplaceholder.typicode.com/todos/1');
+          console.log(response.json())
+
+     } catch (error) {
+          console.error(error)
+     }
+
+}
+
+fetchApi();

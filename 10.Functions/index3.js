@@ -70,6 +70,7 @@ let car={
           }
      }
 }
+
 car.specs.displaySpecs(); // speed is  120
 
 
